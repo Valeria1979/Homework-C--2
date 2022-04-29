@@ -19,14 +19,16 @@
 Console.WriteLine("Введите число: ");
 int namber = int.Parse(Console.ReadLine());
 
-if(namber < 100)
+if (namber < 100)
+
 {
     Console.WriteLine("третьего числа нет");
 }
 
 else
 
-while(namber >= 1000)
+while (namber >= 10000)
+
 {
     namber = namber / 10;
 }
